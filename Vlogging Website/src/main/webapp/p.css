@@ -1,8 +1,10 @@
 body{
     background-image: url(beautif.jpg);
     background-repeat: no-repeat;
+    margin: 0;
     background-size: cover;
 }
+
 form{
     text-align: center;
     margin: 0;
@@ -123,4 +125,77 @@ li:hover{
 .anurag{
     margin-left: 10px;
     justify-content: space-between;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0px;
+    background: linear-gradient(0deg, rgba(255,255,255,0.08167016806722693) 4%, rgba(255,255,255,1) 20%);
+    height: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        font-size: 100px;
+    }
+
+    .navbar{
+        margin: 0;
+        padding: 0px;
+        background: linear-gradient(0deg, rgba(255,255,255,0.08167016806722693) 4%, rgba(255,255,255,1) 20%);
+        width: 1300px;
+        height: 150px;
+    }
+
+    .bars{
+        display: flex;
+        flex-direction: row;
+    }
+
+    input{
+        border-radius: 20px;
+        width: 700px;
+        font-size: 30px;
+        padding: 20px;
+        background: transparent;
+        border-color: white;
+    }
+
+    button{
+        border-radius: 20px;
+        width: 90px;
+        color: rgb(117, 117, 117);
+        border-color: white;
+        background: transparent;
+        font-size: 20px;
+    }
+
+    .a{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img{
+        margin-left: 40%;
+        text-align: center;
+        height: 700px;
+        width: 940px;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+
+    form{
+        display: flex;
+        text-align: center;
+        padding-left: 40%;
+    }
+
+    .box{
+        border: none;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
 }
