@@ -1,0 +1,126 @@
+body{
+    background-image: url(beautif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+
+hr{
+    border: 1px solid rgb(110, 110, 110);
+}
+
+h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 0%;
+}
+
+.a{
+    padding-left: 3%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2{
+    text-align: left;
+    text-decoration: underline;
+    padding: 20px;
+
+}
+
+p{
+    font-style: italic, bold;
+}
+
+button{
+    border-radius: 20px;
+    width: 80px;
+    color: rgb(117, 117, 117);
+    border-color: white;
+    background: transparent;
+    font-size: 20px;
+}
+
+
+input{
+    border-radius: 20px;
+    width: 600px;
+    font-size: 20px;
+    background: transparent;
+    border-color: white;
+}
+
+img{
+    height: 200px;
+    width: 240px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+img:hover{
+    box-shadow: 0 0 10px rgb(117, 117, 117), 0 0 10px rgb(117, 117, 117), 0 0 10px rgb(117, 117, 117);
+}
+
+.box{
+    border-radius: 10px;
+    border-top: 5px solid #f1f1f1;
+    border-right: 5px solid #646464;
+    border-left: 5px solid #646464;
+    border-bottom: 5px solid #f1f1f1;
+    margin: 50px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    font-style: bold;
+    font-weight: 100;
+}
+
+.navdiv{
+    text-align: right;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    border-bottom: 2.5px solid rgb(71, 71, 71);
+    background-color: transparent;
+    padding: 5px;
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 100;
+    transition: 0.2s;
+}
+
+li:hover{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.iago{
+    margin-top: 40px;
+}
+
+.anurag{
+    margin-left: 10px;
+    justify-content: space-between;
+}
