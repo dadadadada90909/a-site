@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" href="https://fontawesome.com/icons/bars?f=classic&s=solid">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="p.css">
 </head>
@@ -12,15 +12,18 @@
 	<nav class="navbar">
 		<div class="navdiv">
 			<div class="logo">VLOGLINE</div>
-			<ul>
-				<li><a href="#" class="hover-link">Home</a></li>
-				<li><a href="#" class="hover-link"></a>Web</a></li>
-				<li><a href="#" class="hover-link"></a>Contact</a></li>
-				<li><a href="#" class="hover-link"></a>About</a></li>
-			</ul>
-		</div>
+			<div class="navlinks" id="nav-links">
+				<ul>
+					<li><a href="#" class="hover-link">Home</a></li>
+					<li><a href="#" class="hover-link"></a>Web</a></li>
+					<li><a href="#" class="hover-link"></a>Contact</a></li>
+					<li><a href="#" class="hover-link"></a>About</a></li>
+				</ul>
+			</div>
 
-		<a href="#" class="nav-toggle hover-link"><i class="fa-solid fa-bars"></i></a>
+
+		<a href="#" class="nav-toggle hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+	</div>
 		<div class="anurag">G R O U P P R O J E C T</div>
 	</nav>
 
@@ -43,6 +46,15 @@
 			</div>
 		</div>
 	</div>
+
+	<script>
+		const toggleButton = document.getElementById('nav-toggle');
+		const navLinks = document.getElementById('nav-links');
+		
+		toggleButton.addEventListener('click' , () => {
+			navLinks.classList.toggle('active');
+		})
+	</script>
 
 </body>
 </html>

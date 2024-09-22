@@ -11,12 +11,11 @@
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		if(username.equals("0011")&&password.equals("0011"))
-		{
+		if(username.equals("user")&&password.equals("user")){
 			response.sendRedirect("p.html");
 		}
-		else
-		{
+		
+		else{
 			response.sendRedirect("login.html");
 		}
 	%>
